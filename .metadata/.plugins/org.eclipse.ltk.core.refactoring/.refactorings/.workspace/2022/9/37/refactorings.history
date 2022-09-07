@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DSA_Pattern&apos; to &apos;Fundamental&apos;" description="Rename resource &apos;DSA_Pattern&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/DSA_Pattern" name="Fundamental" stamp="1662564978500" updateReferences="true"/>
+</session>
