@@ -28,8 +28,8 @@ public class CountSort2 {
 		System.out.println(Arrays.toString(countArray));
 		sort(countArray,ar);//10 iteration O(1)//O(n+m)
 		System.out.println(Arrays.toString(ar));
-	}//O(2n+m)
-//Migratory Bird
+	}//O(2n+r),r
+	//Migratory Bird
 	//0 1 2 3 4(index)
 	//2 3 1 0 1(value)
 	//0 0 1 1 1 2 4
@@ -44,7 +44,7 @@ public class CountSort2 {
 			for(int j=1;j<=frequency;j++) {
 				ar[index]=i;
 				index++;
-		}
+		}//O(n+r)
 	}
 	}
 	private static void populateTheCountArray(int[] countArray, int[] ar) {
